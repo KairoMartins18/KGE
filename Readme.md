@@ -1,20 +1,11 @@
-![GDevelop logo](https://raw.githubusercontent.com/4ian/GDevelop/master/Core/docs/images/gdlogo.png "GDevelop logo")
 
-GDevelop is a full-featured, open-source game development software, allowing to create HTML5 and native games without any knowledge in a specific programming language. All the game logic is built up using an intuitive and powerful event-based system.
 
-![GDevelop in action, used to add a trigger in a platformer game](https://raw.githubusercontent.com/4ian/GDevelop/master/Core/docs/images/demo.gif "GDevelop in action, used to add a trigger in a platformer game")
+KGE is a full-featured, open-source game development software, allowing to create HTML5 and native games without any knowledge in a specific programming language. All the game logic is built up using an intuitive and powerful event-based system.
+
+!
 
 Getting started
 ---------------
-
-| ❔ I want to... | 🚀 What to do |
-| --- | --- |
-| Download GDevelop to make games | Go on [GDevelop website](https://gdevelop-app.com) to download GD! |
-| Contribute to the editor | Download [Node.js] and follow this [README](newIDE/README.md). |
-| Create/improve an extension | Download [Node.js] and follow this [README](newIDE/README-extensions.md). |
-| Help to translate GDevelop | Go on the [GDevelop project on Crowdin](https://crowdin.com/project/gdevelop). |
-
-> Are you interested in contributing to GDevelop for the first time? Or want to participate to [Google Summer of Code 2021](https://summerofcode.withgoogle.com/organizations/5586892420022272/)? Take a look at the list of **[good first issues](https://github.com/4ian/GDevelop/issues?q=is%3Aissue+is%3Aopen+label%3A%22%F0%9F%91%8Cgood+first+issue%22)** and the **["🏐 not too hard" cards](https://trello.com/b/qf0lM7k8/gdevelop-roadmap?menu=filter&filter=label:Not%20too%20hard%20%E2%9A%BD%EF%B8%8F)** on the Roadmap.
 
 Overview of the architecture
 ----------------------------
