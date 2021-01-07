@@ -36,76 +36,84 @@ const styles = {
 };
 
 // There must be missing tons of people.
-// If you contributed to GDevelop but you're not in the list, please
+// If you contributed to KGE but you're not in the list, please
 // send a Pull Request on GitHub or open an issue ;)
 const contributors = [
   // GitHub contributors
   {
+    name: 'Florian Rival',
+    description:
+      'Creator of the GDevelop base project',
+	   link: 'https://github.com/4ian'
+  },
+  
+  
+  {
     name: 'Victor Levasseur',
     description:
-      'Numerous contributions to GDevelop core and various extensions',
+      'Numerous contributions to KGE core and various extensions',
   },
   {
     name: 'Lizard-13',
     description:
-      'Numerous contributions to GDevelop (particle engine, bugfixes, new conditions, examples, tutorials...)',
+      'Numerous contributions to KGE (particle engine, bugfixes, new conditions, examples, tutorials...)',
   },
   {
     name: "Christina 'Castpixel' Antoinette Neofotistou",
     description: 'Art and assets for the 8-bit Space Shooter example.',
     link: 'https://www.patreon.com/castpixel',
   },
-  { name: 'ale26reg', description: 'Contributions to GDevelop' },
-  { name: 'dos1', description: 'Contributions to GDevelop' },
+  { name: 'ale26reg', description: 'Contributions to KGE' },
+  { name: 'dos1', description: 'Contributions to KGE' },
   {
     name: 'Aurélien Vivet',
     description:
-      'Numerous contributions to GDevelop (Video extension, advanced shapes, bugfixes, new conditions, examples...)',
+      'Numerous contributions to KGE (Video extension, advanced shapes, bugfixes, new conditions, examples...)',
     link: 'https://www.witly.fr',
   },
   {
     name: 'Todor Imreorov',
     description:
-      'Numerous contributions to GDevelop, added Piskel sprite editor and jfxr',
+      'Numerous contributions to KGE, added Piskel sprite editor and jfxr',
   },
-  { name: 'brylie', description: 'Contributions to GDevelop' },
-  { name: 'Nnarol', description: 'Contributions to GDevelop' },
-  { name: 'wild-master', description: 'Contributions to GDevelop' },
-  { name: 'RandomShaper', description: 'Contributions to GDevelop' },
-  { name: 'RyanNerd', description: 'Contributions to GDevelop' },
-  { name: 'greater', description: 'Contributions to GDevelop' },
-  { name: 'triptych', description: 'Contributions to GDevelop' },
+  { name: 'brylie', description: 'Contributions to KGE' },
+  { name: 'Nnarol', description: 'Contributions to KGE' },
+  { name: 'wild-master', description: 'Contributions to KGE' },
+  { name: 'RandomShaper', description: 'Contributions to KGE' },
+  { name: 'RyanNerd', description: 'Contributions to KGE' },
+  { name: 'greater', description: 'Contributions to KGE' },
+  { name: 'triptych', description: 'Contributions to KGE' },
   {
     name: 'Wend1go',
-    description: 'Contributions to GDevelop, Tutorials, Examples',
+    description: 'Contributions to KGE, Tutorials, Examples',
   },
-  { name: 'mattiascibien', description: 'Contributions to GDevelop' },
-  { name: 'araujo921', description: 'Contributions to GDevelop' },
-  { name: 'ronnystandtke', description: 'Contributions to GDevelop' },
+  { name: 'mattiascibien', description: 'Contributions to KGE' },
+  { name: 'araujo921', description: 'Contributions to KGE' },
+  { name: 'ronnystandtke', description: 'Contributions to KGE' },
   {
     name: 'Thomas Flecy',
-    description: 'Contributions to GDevelop (original sound object extension)',
+    description: 'Contributions to KGE (original sound object extension)',
   },
   {
     name: 'Arthur Pacaud (arthuro555)',
-    description: 'Contributions to GDevelop and Moderation on the Forum',
+    description: 'Contributions to KGE and Moderation on the Forum',
     link: 'https://forum.gdevelop-app.com/u/arthuro555/summary',
   },
   {
     name: 'The Gem Dev',
-    description: 'Contributions to GDevelop and tutorials on Youtube',
+    description: 'Contributions to KGE and tutorials on Youtube',
     link: 'https://www.youtube.com/channel/UCsZ4Ue8c94YLJDbGRafCI5Q',
   },
 
   // Community members:
   {
     name: 'ddabrahim',
-    description: 'Lots of examples bundled with GDevelop',
+    description: 'Lots of examples bundled with KGE',
     link: 'https://gametemplates.itch.io/',
   },
   {
     name: 'Gametemplates',
-    description: 'Examples bundled with GDevelop',
+    description: 'Examples bundled with KGE',
     link: 'https://gametemplates.itch.io/',
   },
   { name: 'Mats', description: 'Tutorials, Examples' },
@@ -123,14 +131,10 @@ const contributors = [
   {
     name: 'Jose David Cuartas Correa',
     description:
-      'Author of Digitopolis (a book on how to make games with GDevelop4)',
+      'Author of Digitopolis (a book on how to make games with KGE)',
   },
 
-  {
-    name: 'François Dumortier',
-    description: 'GDevelop logo design',
-    link: 'http://www.fdumortier.com',
-  },
+ 
   {
     name: 'Constantine Shvetsov',
     description: 'Design of all the awesome icons',
@@ -147,7 +151,7 @@ export default class AboutDialog extends PureComponent<Props, State> {
   };
 
   _openContributePage = () => {
-    Window.openExternalURL('https://gdevelop-app.com/contribute/');
+    Window.openExternalURL('https://github.com/KairoMartins18/KGE');
   };
 
   _openLink = (link: string) => {
@@ -173,9 +177,9 @@ export default class AboutDialog extends PureComponent<Props, State> {
         actions={[
           <FlatButton
             key="website"
-            label={<Trans>GDevelop Website</Trans>}
+            label={<Trans>KGE GitHub</Trans>}
             primary={false}
-            onClick={() => Window.openExternalURL('http://gdevelop-app.com')}
+            onClick={() => Window.openExternalURL('https://github.com/KairoMartins18/KGE')}
           />,
           <FlatButton
             key="close"
@@ -194,12 +198,12 @@ export default class AboutDialog extends PureComponent<Props, State> {
           {({ values, checkUpdates }) => (
             <Column noMargin>
               <img
-                src="res/GD-logo.png"
-                alt="GDevelop logo"
+                src="res/KGE-logo.png"
+                alt="KGE logo"
                 style={styles.logo}
               />
               <Tabs value={currentTab} onChange={this._changeTab}>
-                <Tab label={<Trans>About GDevelop</Trans>} value="about" />
+                <Tab label={<Trans>About KGE</Trans>} value="about" />
                 <Tab label={<Trans>What's new?</Trans>} value="changelog" />
                 <Tab label={<Trans>Contributors</Trans>} value="contributors" />
               </Tabs>
@@ -209,7 +213,7 @@ export default class AboutDialog extends PureComponent<Props, State> {
                     <Line>
                       <Text>
                         <Trans>
-                          GDevelop {getIDEVersion()} based on GDevelop.js{' '}
+                          KGE {getIDEVersion()} based on KGE.js{' '}
                           {getGDCoreVersion()}
                         </Trans>
                       </Text>
@@ -240,7 +244,7 @@ export default class AboutDialog extends PureComponent<Props, State> {
                   <Column>
                     <Text>
                       <Trans>
-                        GDevelop was created by Florian "4ian" Rival.
+                        KGE was created by Kairo.
                       </Trans>
                     </Text>
                     <Text>
@@ -266,14 +270,14 @@ export default class AboutDialog extends PureComponent<Props, State> {
                   <Column expand>
                     <Text>
                       <Trans>
-                        Thanks to all users of GDevelop! There must be missing
+                        Thanks to all users of KGE! There must be missing
                         tons of people, please send your name if you've
                         contributed and you're not listed.
                       </Trans>
                     </Text>
                     <Line alignItems="center" justifyContent="center">
                       <FlatButton
-                        label={<Trans>Contribute to GDevelop</Trans>}
+                        label={<Trans>Contribute to KGE</Trans>}
                         onClick={this._openContributePage}
                       />
                     </Line>
