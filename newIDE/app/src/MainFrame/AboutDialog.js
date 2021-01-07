@@ -30,9 +30,7 @@ type State = {|
 |};
 
 const styles = {
-  logo: {
-    width: '100%',
-  },
+
 };
 
 // There must be missing tons of people.
@@ -45,6 +43,13 @@ const contributors = [
     description:
       'Numerous contributions to GDevelop core and various extensions',
   },
+  
+   {
+    name: 'Kairo Martins',
+    description:
+      'Numerous contributions to GDevelop (criador KGE)',
+  },
+  
   {
     name: 'Lizard-13',
     description:
@@ -173,9 +178,9 @@ export default class AboutDialog extends PureComponent<Props, State> {
         actions={[
           <FlatButton
             key="website"
-            label={<Trans>GDevelop Website</Trans>}
+            label={<Trans>Kairoware website</Trans>}
             primary={false}
-            onClick={() => Window.openExternalURL('http://gdevelop-app.com')}
+            onClick={() => Window.openExternalURL('http://kairoware.rf.gd')}
           />,
           <FlatButton
             key="close"
@@ -199,7 +204,7 @@ export default class AboutDialog extends PureComponent<Props, State> {
                 style={styles.logo}
               />
               <Tabs value={currentTab} onChange={this._changeTab}>
-                <Tab label={<Trans>About GDevelop</Trans>} value="about" />
+                <Tab label={<Trans>About KGE</Trans>} value="about" />
                 <Tab label={<Trans>What's new?</Trans>} value="changelog" />
                 <Tab label={<Trans>Contributors</Trans>} value="contributors" />
               </Tabs>
@@ -209,7 +214,7 @@ export default class AboutDialog extends PureComponent<Props, State> {
                     <Line>
                       <Text>
                         <Trans>
-                          GDevelop {getIDEVersion()} based on GDevelop.js{' '}
+                          KGE {getIDEVersion()} based on GDevelop.js{' '}
                           {getGDCoreVersion()}
                         </Trans>
                       </Text>
@@ -240,7 +245,8 @@ export default class AboutDialog extends PureComponent<Props, State> {
                   <Column>
                     <Text>
                       <Trans>
-                        GDevelop was created by Florian "4ian" Rival.
+                        
+                      The engine (KGE) is based on the GDevelop 5 projects, which was originally created by Florian "4ian" Rival.
                       </Trans>
                     </Text>
                     <Text>

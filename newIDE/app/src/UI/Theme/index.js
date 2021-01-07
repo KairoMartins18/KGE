@@ -21,7 +21,7 @@ export const themes = themeList;
 export type GDevelopTheme = $PropertyType<Theme, 'gdevelopTheme'>;
 type ActualTheme = {| gdevelopTheme: GDevelopTheme, muiTheme: Object |};
 type MuiThemeOptions = $PropertyType<Theme, 'muiThemeOptions'>;
-const defaultThemeName = 'GDevelop default';
+const defaultThemeName = 'KGE default';
 
 export function getTheme({
   themeName,

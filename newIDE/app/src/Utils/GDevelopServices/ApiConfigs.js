@@ -12,12 +12,12 @@ export const GDevelopBuildApi = {
 };
 
 export const GDevelopFirebaseConfig = {
-  apiKey: 'AIzaSyAnX9QMacrIl3yo4zkVFEVhDppGVDDewBc',
-  authDomain: 'gdevelop-services.firebaseapp.com',
-  databaseURL: 'https://gdevelop-services.firebaseio.com',
-  projectId: 'gdevelop-services',
-  storageBucket: 'gdevelop-services.appspot.com',
-  messagingSenderId: '44882707384',
+  apiKey: 'AIzaSyAatNpogvEGg7E-n3dA6s2rMevkCtS5nj0',
+  authDomain: 'kairogameengine.firebaseapp.com',
+  databaseURL: 'https://kairogameengine-default-rtdb.firebaseio.com/',
+  projectId: 'kairogameengine',
+  storageBucket: 'kairogameengine.appspot.com',
+  messagingSenderId: '616343261434',
 };
 
 export const GDevelopUsageApi = {

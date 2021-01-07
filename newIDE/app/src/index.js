@@ -43,7 +43,7 @@ type State = {|
 
 class Bootstrapper extends Component<{}, State> {
   state = {
-    loadingMessage: 'Loading the editor...',
+    loadingMessage: 'KGE está Carregando...',
     App: null,
   };
   authentification = new Authentification();

@@ -1,10 +1,10 @@
 {
-  "name": "GDevelop.js",
+  "name": "KGE.js",
   "version": "0.0.1",
   "author": "Florian Rival <florian.rival@gmail.com> (http://florianrival.com)",
   "description": "Core of GDevelop, the open-source game creator requiring no programming skills, ported to Javascript",
   "keywords": [
-    "GDevelop",
+    "KGE",
     "game",
     "creator",
     "events",

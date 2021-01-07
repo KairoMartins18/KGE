@@ -60,7 +60,7 @@ const PreferencesDialog = ({ i18n, onClose }: Props) => {
       onRequestClose={onClose}
       cannotBeDismissed={true}
       open
-      title={<Trans>GDevelop Preferences</Trans>}
+      title={<Trans>KGE Preferences</Trans>}
       maxWidth="sm"
       noMargin
     >

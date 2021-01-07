@@ -112,7 +112,7 @@ export class StartPage extends React.Component<Props, State> {
                     <GDevelopLogo />
                     <Text>
                       <Trans>
-                        GDevelop is an easy-to-use game creator with no
+                        KGE is an easy-to-use game creator with no
                         programming language to learn.
                       </Trans>
                     </Text>
@@ -174,13 +174,13 @@ export class StartPage extends React.Component<Props, State> {
               <Line alignItems="center" justifyContent="space-between">
                 <Line>
                   <FlatButton
-                    label={<Trans>About GDevelop</Trans>}
+                    label={<Trans>About KGE</Trans>}
                     onClick={onOpenAboutDialog}
                   />
                   <FlatButton
-                    label={<Trans>GDevelop Forums</Trans>}
+                    label={<Trans>Kairoware Suporte</Trans>}
                     onClick={() =>
-                      Window.openExternalURL('https://forum.gdevelop-app.com')
+                      Window.openExternalURL('https://help.kairoware.rf.gd')
                     }
                   />
                   <FlatButton
@@ -198,38 +198,7 @@ export class StartPage extends React.Component<Props, State> {
                     onClick={onOpenLanguageDialog}
                     icon={<Language />}
                   />
-                  <IconButton
-                    className="icon-facebook"
-                    onClick={() =>
-                      Window.openExternalURL(
-                        'https://www.facebook.com/GDevelopApp'
-                      )
-                    }
-                    tooltip={t`GDevelop on Facebook`}
-                  />
-                  <IconButton
-                    className="icon-twitter"
-                    onClick={() =>
-                      Window.openExternalURL('https://twitter.com/GDevelopApp')
-                    }
-                    tooltip={t`GDevelop on Twitter`}
-                  />
-                  <IconButton
-                    className="icon-discord"
-                    onClick={() =>
-                      Window.openExternalURL('https://discord.gg/rjdYHvj')
-                    }
-                    tooltip={t`GDevelop on Discord`}
-                  />
-                  <IconButton
-                    className="icon-reddit"
-                    onClick={() =>
-                      Window.openExternalURL(
-                        'https://www.reddit.com/r/gdevelop'
-                      )
-                    }
-                    tooltip={t`GDevelop on Reddit`}
-                  />
+                  
                 </Line>
               </Line>
             </div>

@@ -20,7 +20,7 @@ export default function ProjectTitlebar({ fileMetadata }: Props) {
   React.useEffect(
     () => {
       const title = [
-        'GDevelop 5',
+        'KGE',
         fileMetadata
           ? fileMetadata.fileIdentifier + (hasUnsavedChanges ? ' *' : '')
           : '',

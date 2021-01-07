@@ -115,7 +115,7 @@ export default class LanguageDialog extends Component<Props, State> {
                       <AlertMessage kind="info">
                         <Trans>
                           Support for translations is still new and in beta.
-                          GDevelop needs your help to be translated in your
+                          KGE needs your help to be translated in your
                           language!
                         </Trans>
                       </AlertMessage>
@@ -150,7 +150,7 @@ export default class LanguageDialog extends Component<Props, State> {
                       <FlatButton
                         primary
                         label={
-                          <Trans>Help to translate GD in your language</Trans>
+                          <Trans>Help to translate KGE in your language</Trans>
                         }
                         onClick={() =>
                           Window.openExternalURL(

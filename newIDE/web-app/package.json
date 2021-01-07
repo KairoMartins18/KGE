@@ -1,7 +1,7 @@
 {
-  "name": "gdevelop-web",
+  "name": "KGE",
   "version": "1.0.0",
-  "description": "GDevelop IDE running on browsers",
+  "description": "KGE IDE running on browsers",
   "author": "Florian Rival",
   "homepage": "http://gdevelop-app.com",
   "private": true,
